@@ -1,0 +1,27 @@
+{
+  "name": "top-100-superhero-movies-api",
+  "version": "1.0.0",
+  "description": "A JSON API using Mongoose and Express on IMDB's Top 100 Superhero movies (as of 03/30/22)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MannyNR/Top-100-Superhero-Movies-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MannyNR/Top-100-Superhero-Movies-API/issues"
+  },
+  "homepage": "https://github.com/MannyNR/Top-100-Superhero-Movies-API#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
