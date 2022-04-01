@@ -4,15 +4,19 @@
   "description": "A JSON API using Mongoose and Express on IMDB's Top 100 Superhero movies (as of 03/30/22)",
   "main": "index.js",
   "scripts": {
+    "db:seed": "node seed/data.js",
+    "dev": "nodemon server.js",
     "start": "node index.js"
+
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MannyNR/Top-100-Superhero-Movies-API.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Emmanuel Nunez",
   "license": "ISC",
+  "type:": "module",
   "bugs": {
     "url": "https://github.com/MannyNR/Top-100-Superhero-Movies-API/issues"
   },
