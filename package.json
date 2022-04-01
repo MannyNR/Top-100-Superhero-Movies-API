@@ -6,7 +6,7 @@
   "scripts": {
     "db:seed": "node seed/data.js",
     "dev": "nodemon server.js",
-    "start": "node index.js"
+    "start": "node server.js"
 
   },
   "repository": {
@@ -16,7 +16,7 @@
   "keywords": [],
   "author": "Emmanuel Nunez",
   "license": "ISC",
-  "type:": "module",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/MannyNR/Top-100-Superhero-Movies-API/issues"
   },

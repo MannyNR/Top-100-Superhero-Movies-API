@@ -18,4 +18,4 @@ let Movie = new Schema({
   Directors: { type: String },
 });
 
-export default mongoose.model("IMDBTop100", Movie);
+export default mongoose.model("movies", Movie);
