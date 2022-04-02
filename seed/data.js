@@ -3,7 +3,7 @@ import Movie from "../model/IMDBTop100.js";
 import IMDBTop100 from "./IMDBTop100.json" assert { type: "json" };
 
 const insertData = async () => {
-  db.dropDatabase();
+  db.movies.deleteMany();
   await Movie.insertMany(IMDBTop100);
   db.close();
 };
