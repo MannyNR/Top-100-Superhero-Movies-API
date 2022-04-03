@@ -15,7 +15,7 @@ let Movie = new Schema({
   Genres: { type: String },
   Num_Votes: { type: Number },
   Release_Date: { type: Date },
-  Directors: { type: String },
+  Director: { type: String },
 });
 
 export default mongoose.model("movies", Movie);
