@@ -8,6 +8,34 @@ A JSON API following the CRUD standard, (Create Read Update Delete). Technologie
 
 ---
 
+## Getting Started
+
+========================
+
+### Installation
+
+1. First make sure to have the latest Node Package Manager Installed (NPM).
+
+```
+npm install npm@latest -g
+```
+
+2. Clone the repo in your desired folder
+
+```
+git clone https://github.com/MannyNR/Top-100-Superhero-Movies-API.git
+```
+
+3. Install NPM packages
+
+```
+npm install
+```
+
+![alt text](./Readme%20screenshots/boom.gif "Off you go!")
+
+---
+
 ## API Reference
 
 =====================
@@ -58,7 +86,11 @@ _Keep in mind there are some **required** fields to create a new movie document:
 ![alt text](./Readme%20screenshots/Delete.png "Confirming the deletion of 101 Dalmatians")
 
 ---
+
 ---
+
 ## **Future Plans**
 
 **_I'm looking to launch it on Heroku with more functionality, stay tuned!_**
+
+![alt text](./Readme%20screenshots/sbob.gif "See ya later!")
