@@ -36,7 +36,7 @@ export const createMovie = async (req, res) => {
 
 export const updateMovie = async (req, res) => {
   let { id } = req.params;
-  let movie = await Movie.findByIdAndUpdate(id);
+  let movie = await Movie.findByIdAndUpdate(id, req.body);
   res.status(200).json(movie);
 };
 
