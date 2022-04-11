@@ -32,6 +32,18 @@ git clone https://github.com/MannyNR/Top-100-Superhero-Movies-API.git
 npm install
 ```
 
+4. Seed the data
+
+```
+npm run db:seed
+```
+
+5. Connect to server
+
+```
+npm run start
+```
+
 ![alt text](./Readme%20screenshots/boom.gif "Off you go!")
 
 ---
@@ -78,6 +90,12 @@ _Keep in mind there are some **required** fields to create a new movie document:
 ### Let's see our newly added superhero movie:
 
 ![alt text](./Readme%20screenshots/Get%20after%20creating.png "Our newly added movie")
+
+---
+
+### Update/comment on an unfair spot for a great superhero movie:
+
+![alt text](./Readme%20screenshots/Update.png "Our updated movie Title_Type")
 
 ---
 
