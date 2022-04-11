@@ -107,11 +107,10 @@ _Keep in mind there are some **required** fields to create a new movie document:
 
 ---
 
-## **Deployed!**
 
-**_Deployed on Heroku_**
+## **_Deployed on Heroku!_**
 
-[Heroku Link](https://top100-superhero-movie-api.herokuapp.com/api/movies)
+[Link to deployed app](https://top100-superhero-movie-api.herokuapp.com/api/movies)
 
 
 ![alt text](./Readme%20screenshots/sbob.gif "See ya later!")
