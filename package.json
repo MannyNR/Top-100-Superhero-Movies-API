@@ -7,7 +7,6 @@
     "db:seed": "node seed/data.js",
     "dev": "nodemon server.js",
     "start": "node server.js"
-
   },
   "repository": {
     "type": "git",
@@ -22,6 +21,7 @@
   },
   "homepage": "https://github.com/MannyNR/Top-100-Superhero-Movies-API#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.3",
     "mongoose": "^6.2.9"
   },
